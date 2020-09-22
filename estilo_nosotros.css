@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  opacity: 0.9;
+  width: 100%;
+  z-index: 20;
+}
+
+body {
+  background: #ffffff;
+  background-position: top;
+  font-family: "Helvetica";
+  margin-bottom: 250px;
+}
+
+.fondo1 {
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  top: -80px;
+}
+
+.L {
+  background-image: url(img/lenguaje1.jpg);
+  top: 98.9%;
+  width: 25%;
+  height: 75%;
+  background-size: cover;
+  position: absolute;
+}
+
+.L:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.L2 {
+  background-image: url(img/lenguaje2.jpg);
+  top: 98.9%;
+  width: 25%;
+  height: 75%;
+  left: 25%;
+  background-size: cover;
+  position: absolute;
+}
+
+.L2:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.L3 {
+  background-image: url(img/lenguaje3.jpg);
+  top: 98.9%;
+  width: 25%;
+  height: 75%;
+  left: 50%;
+  background-size: cover;
+  position: absolute;
+}
+
+.L3:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.L4 {
+  background-image: url(img/lenguaje4.jpg);
+  top: 98.9%;
+  width: 25%;
+  height: 75%;
+  left: 75%;
+  background-size: cover;
+  position: absolute;
+}
+
+.L4:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.casaletra h1 {
+  font-size: 50px;
+  font-family: "Helvetica";
+  color: white;
+  position: absolute;
+  top: 135%;
+  left: 65%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.html {
+  font-size: 50px;
+  font-family: "Helvetica";
+  color: white;
+  position: absolute;
+  top: 120%;
+  left: 57%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 5px rgb(88, 84, 84);
+}
+
+.php {
+  font-size: 50px;
+  font-family: "Helvetica";
+  color: white;
+  position: absolute;
+  top: 120%;
+  left: 83%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 5px rgb(88, 84, 84);
+}
+
+.c {
+  font-size: 50px;
+  font-family: "Helvetica";
+  color: white;
+  position: absolute;
+  top: 120%;
+  left: 112%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 5px rgb(88, 84, 84);
+}
+
+.java {
+  font-size: 50px;
+  font-family: "Helvetica";
+  color: white;
+  position: absolute;
+  top: 120%;
+  left: 135%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 5px rgb(88, 84, 84);
+}
+
+.casaletra h5 {
+  font-size: 20px;
+  font-family: "Helvetica";
+  color: white;
+  position: absolute;
+  top: 145%;
+  left: 67%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.navegacion {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.navegacion ul {
+  list-style: none;
+}
+
+.menu > li {
+  position: relative;
+  display: inline-block;
+  padding: 0px 5px;
+  font-family: "Helvetica";
+}
+
+.menu > li > a {
+  display: block;
+  padding: 15px 10px;
+  color: #353535;
+  font-family: "Helvetica";
+  text-decoration: none;
+}
+
+.mujer button {
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 0.3em;
+  border-color: transparent;
+  z-index: 2;
+  position: relative;
+}
+
+.bm {
+  text-decoration: none;
+  color: white;
+}
+
+.dazz img {
+  height: 35px;
+  width: 145px;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  z-index: 2;
+  position: relative;
+}
+
+.hombre button {
+  background-color: transparent;
+  color: black;
+  padding: 2px 5px;
+  border-radius: 0.3em;
+  border-color: transparent;
+  z-index: 2;
+  position: relative;
+}
+
+.hombre button:hover {
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 0.3em;
+  border-color: transparent;
+}
+
+.searching {
+  position: relative;
+  left: 900px;
+  width: 225px;
+}
+
+.icon-search {
+  font-size: 15px;
+}
+
+.searching a {
+  font-size: 15px;
+  border-style: dashed double dotted;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  margin-bottom: 5px;
+}
+
+.searching span {
+  padding-right: 10px;
+}
+
+/* submenu */
+.submenu {
+  z-index: 1;
+  position: fixed;
+  left: 0px;
+  background: #fff;
+  visibility: hidden;
+  opacity: 0.5;
+  transition: all 1500ms;
+  overflow: hidden;
+  width: 0px;
+  height: 200vh;
+  top: -30px;
+}
+
+.submenu li {
+  font-size: 20px;
+  font-family: "Helvetica";
+  padding: 14px;
+  transition: all 1500ms;
+  display: block;
+  width: 100%;
+}
+
+.submenu li a {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  padding: 15px;
+  color: black;
+  font-family: "Helvetica";
+  text-decoration: none;
+  transition: all 600ms;
+}
+
+.submenu li a:hover {
+  opacity: 0.4;
+  color: rgb(97, 97, 97);
+  padding-left: 30px;
+}
+
+.menu li:hover .submenu {
+  transition: all 1500ms;
+  display: block;
+  width: 30%;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* ofertas centrado */
+
+.content {
+  display: inline-block;
+  text-align: center;
+}
+
+.centrado {
+  font-family: "Helvetica";
+  color: white;
+  font-size: 75px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 5px rgb(88, 84, 84);
+}
+
+.pwe {
+  font-size: 35px;
+  text-shadow: 10px 10px 10px black;
+  color: white;
+}
+
+.centrado a {
+  color: white;
+  text-decoration: none;
+}
+
+/* footer */
+
+.foot {
+  width: 1100px;
+  margin: 0 auto;
+  border-style: solid;
+  border-top: black;
+}
+
+.columna {
+  width: calc(100% / 3);
+  float: left;
+  text-align: left;
+  height: 250px;
+}
+
+.columna h3 {
+  position: absolute;
+  bottom: 75%;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-facebook {
+  color: white;
+  background-color: black;
+  position: absolute;
+  left: 70%;
+  bottom: 70%;
+  margin: 0;
+  padding: 7px;
+  border-radius: 1em;
+  text-decoration: none;
+}
+
+.icon-instagram {
+  color: white;
+  background-color: black;
+  position: absolute;
+  padding: 7px;
+  border-radius: 1em;
+  left: 75%;
+  bottom: 70%;
+  margin: 0;
+  text-decoration: none;
+}
+
+.columna .help {
+  position: absolute;
+  bottom: 25%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sobred {
+  position: absolute;
+  bottom: 40%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.columna ul a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.resp {
+  font-size: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  bottom: -790px;
+}
